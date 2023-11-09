@@ -33,4 +33,8 @@ func main() {
 
 	mySliceA := []string{"a", "b"}
 	fmt.Println(mySliceA)
+	mySliceA = append(mySliceA, "c")
+	fmt.Println(mySliceA)
+	fmt.Println(mySliceA[0])
+
 }
